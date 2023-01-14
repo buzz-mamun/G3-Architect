@@ -1,0 +1,220 @@
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .sponsors_list {
+        flex-wrap: wrap;
+    }
+    .facts_number {
+        font-size: 26px;
+    }
+    .facts_head {
+        font-size: 14px;
+    }
+
+    
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .sponsors_list {
+        flex-wrap: wrap;
+    }
+    .facts_number {
+        font-size: 24px;
+    }
+    .facts_head {
+        font-size: 10px;
+    }
+    .featured_image {
+        width: 48vw;
+        overflow-x: hidden;
+    }
+
+    
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .navbar_container{
+        padding-top: 3vw;
+    }
+    .navbar_link{
+        font-size: 14px;
+    }
+    .navbar_logo{
+        font-size: 32px ;
+    }
+    .sponsors_list {
+        flex-wrap: wrap;
+    }
+    .facts_number {
+        font-size: 24px;
+    }
+    .facts_head {
+        font-size: 10px;
+    }
+    .facts_iconbox_list{
+        gap: 3.5vw;
+    }
+    .facts_iconbox {
+        max-width: 15vw;
+        min-width: 15vw;
+        max-height: 15vw;
+        min-height: 15vw;
+    }
+    .featuredcontent_container{
+        flex-direction: column;
+    }
+    .featured_btn_container{
+        position: static;
+        margin-top: 0;
+        text-align: center;
+
+    }
+    .featured_image{
+        margin-left: -4.5vw;
+        width: 50vw;
+        margin-bottom: 2vw;
+        margin-top: 2vw ;
+        
+    }
+    .featuredcontent_container{
+        align-items: center;
+    }
+    .sponsors_list{
+        padding-top: 5vw;
+    }
+    .disclaimer{
+        height: 10.4vw;
+        line-height: 10.4vw;
+        font-size: 12px;
+        word-spacing: -2px;
+        width: 85vw;
+        margin-left: 6.5vw;
+        margin-right: 6.5vw;
+    }
+    .header_container{
+        padding: 2vw 6.5vw 1.2vw 6.5vw;
+        
+    }
+    
+}
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    .sponsors_list {
+        flex-wrap: wrap;
+    }
+    .facts_number {
+        font-size: 24px;
+    }
+    .facts_head {
+        font-size: 10px;
+    }
+    .navbar_container{
+        flex-direction: column;
+    }
+    .banner_heading{
+        font-size: 28px;
+    }
+    .banner_paragraph{
+        font-size: 18px;
+    }
+    button.banner_btn{
+        margin-top: 6vw;
+        padding: 4vw;
+    }
+    .header_container{
+        padding: 2vw 1vw 1.2vw 1vw;
+        
+    }
+    section.features_container{
+        flex-direction: column-reverse;
+    }
+    .features_container{
+        padding: 2vw 2vw 1.2vw 2vw;
+    }
+    img.features_grid_pics{
+        width: 80vw;
+    }
+    .features_grid_container{
+        display: grid;
+        grid-template-columns: 80vw;
+        gap: 2vw;
+    }
+    button.feature_text_btn{
+        padding: 4vw;
+    }
+    section.featuredcontent_container{
+        flex-direction: column;
+
+    }
+    .featured_btn_container{
+        position: static;
+        margin-top: 0;
+        text-align: center;
+        padding: 4vw;
+
+    }
+    h1.featured_btn_heading1{
+        font-size: 42px;
+    }
+    .featured_image{
+        margin-left: -9vw;
+        width: 70vw;
+        margin-bottom: 2vw;
+        margin-top: 2vw ;
+        
+    }
+    .facts_container{
+        padding-left: 8vw;
+        padding-top: 8vw;
+    }
+    .facts_iconbox_list{
+        flex-direction: column;
+    }
+    .facts_iconbox{
+        max-width: 70.5vw;
+        min-width: 70.5vw;
+        max-height: 60.5vw;
+        min-height: 60.5vw;
+    }
+    .facts_icon{
+        width: 25vw;
+    }
+    h3.facts_number{
+        font-size: 48px;
+    }
+    h4.facts_head{
+        font-size: 24px;
+    }
+    h2.facts_header_container_header{
+        padding: 8vw 0 4vw;
+    }
+    p.facts_header_text{
+        padding: 4vw 0 10vw;
+    }
+    p.disclaimer{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0;
+        font-size: 12px;
+
+    }
+    section.navbar_container{
+        padding-top: 6vw;
+        padding-bottom: 10vw;
+    }
+    .all-col{
+        display: grid;
+        grid-template-columns: 80vw;
+        width: 100vw;
+        text-align: center;
+    }
+    h1.p-title{
+        width: 100vw;
+    }
+    .p-collection{
+        text-align: center;
+        width: 100vw;
+    }
+    .collection{
+        text-align: center;
+        margin-left: 22vw;
+    }
+}
