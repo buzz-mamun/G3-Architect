@@ -5,10 +5,9 @@
     font-family: 'Work Sans', sans-serif;
 }
 /* body{
-    width: 100%;
-    overflow-x: hidden;
-}
-main{
+    padding: 1.56vw 2.1vw 1.56vw 1.56vw !important;
+} */
+/* main{
     width: 100%;
     overflow-x: hidden;
 } */
@@ -92,6 +91,7 @@ main{
     font-size: 18px;
 }
 .banner_btn:hover{
+    transition: 1.2s ease-in-out;
     color: #FF900E;
     background-color: white;
     border: 1px solid #FF900E;
@@ -180,6 +180,7 @@ main{
 }
 
 .feature_text_btn:hover{
+    transition: 1.2s ease-in-out;
     background-color: white;
     color: #FF900E;
     border: 1px solid #FF900E;
@@ -244,6 +245,7 @@ main{
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    color: #727272;
 }
 
 .featured_image_container{
@@ -283,3 +285,109 @@ main{
     font-size: 24px;
     text-align: center;
 }
+
+/* --------------------Facts Here-------------------- */
+
+.facts_container{
+    padding-left: 12.5vw;
+    padding-top: 6.8vw;
+}
+
+.facts_header_container_header{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 1.25vw;
+}
+
+.facts_header_text{
+    color: #727272;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 5.2vw;
+}
+
+.facts_iconbox_container{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.facts_iconbox_list{
+    display: flex;
+    justify-items: left;
+    gap: 6.45vw;
+}
+.facts_iconbox{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    max-width: 12.5vw;
+    min-width: 12.5vw;
+    max-height: 12.5vw;
+    min-height: 12.5vw;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+.facts_icon{
+    padding-top: 2.64vw;
+    width: 3.2vw;
+}
+.facts_number{
+    padding-top: 0.52vw;
+    padding-bottom: 0.25vw ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+}
+.facts_head{
+    padding-bottom: 3vw;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* --------------------Our Sponsors Here-------------------- */
+
+.sponsors_container{
+    margin-top: 9.4vw;
+    padding-left: 12.5vw;
+    padding-right: 12.5vw;
+    text-align: center;
+}
+
+.sponsors_head{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.sponsor_description{
+    padding-top: 1.25vw;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.sponsors_list{
+    padding-top: 2.6vw;
+    display: flex;
+    justify-content: center;
+    gap: 7.8vw;
+}
+.sponsors_logo{
+    list-style: none;
+}
+.sponsor_logo_pic{
+    filter: grayscale(100%);
+}
+
+
+
+
+
+
+
+
+
+
