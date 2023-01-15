@@ -53,6 +53,13 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
+    transition: 0.5s ease-out;
+}
+.navbar_link:hover{
+    color: #868484;
+}
+.navbar_link:active{
+    color: #FF900E;
 }
 
 /* --------------------Banner Here-------------------- */
@@ -89,9 +96,10 @@
     color: white;
     font-weight: 600;
     font-size: 18px;
+    transition: 0.8s ease-in-out;
 }
 .banner_btn:hover{
-    transition: 1.2s ease-in-out;
+    transform: scale(1.05);
     color: #FF900E;
     background-color: white;
     border: 1px solid #FF900E;
@@ -102,6 +110,10 @@
 
 .banner_img{
     width: 100%;
+    transition: 0.8s ease-in-out;
+}
+.banner_img:hover{
+    transform: scale(1.05);
 }
 
 
@@ -134,6 +146,10 @@
 
 .features_grid_pics{
     width: 17.8vw;
+    transition: 1.4s ease-in-out;
+}
+.features_grid_pics:hover{
+    transform: scale(1.05);
 }
  
 .features_text_heading .fth_1{
@@ -177,10 +193,11 @@
     background-color: #FF900E;
     border: 1px solid rgba(255, 255, 255, 0);
     border-radius: 8px;
+    transition: 0.7s ease-in-out;
 }
 
 .feature_text_btn:hover{
-    transition: 1.2s ease-in-out;
+    transform: scale(1.05);
     background-color: white;
     color: #FF900E;
     border: 1px solid #FF900E;
@@ -216,6 +233,13 @@
     line-height: 53px;
     padding-left: 1.1vw;
     border-left: 5px solid #FF900E;
+    transition: 1s ease-in-out;
+}
+.featuredcontent_text_pheader:hover{
+    transform: translateX(-80px);
+    border-right: 5px solid #FF900E;
+    border-left: 5px solid #ff8f0e00;
+    margin-right: 40px;
 }
 
 .featuredcontent_text_paragraph{
@@ -231,6 +255,10 @@
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     margin-bottom: 1vw ;
     padding: 1.56vw 2.1vw 1.56vw 1.56vw;
+    transition: 0.8s ease-in-out;
+}
+.featuredcontent_cards:hover{
+    transform: scale(1.15);
 }
 
 .featuredcontent_cards_heading{
@@ -255,6 +283,11 @@
 .featured_image{
     width: 38vw;
     margin-left: 6vw;
+    transition: 0.8s ease-in-out;
+}
+.featured_image:hover{
+    margin-left: 0vw;
+
 }
 
 .featured_img_btn_container li{
@@ -268,6 +301,11 @@
     left: 48vw;
     margin-top: -7vw;
     border-radius: 8px;
+    transition: 1.5s ease-in-out;
+
+}
+.featured_btn_container:hover{
+    transform: scale(0.8);
 
 }
 
@@ -298,14 +336,22 @@
     font-weight: 700;
     font-size: 45px;
     padding-bottom: 1.25vw;
+    transition: 0.4s ease-in-out;
 }
-
+.facts_header_container_header:hover{
+    margin-left: 5vw;
+}
 .facts_header_text{
     color: #727272;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     padding-bottom: 5.2vw;
+    transition: 0.8s ease-in-out;
+}
+.facts_header_text:hover{
+    transform: scale(1.1);
+
 }
 
 .facts_iconbox_container{
@@ -327,10 +373,19 @@
     min-height: 12.5vw;
     border: 1px solid #FF900E;
     border-radius: 8px;
+    transition: 0.8s ease-in-out
+}
+.facts_iconbox:hover{
+    transform: scale(1.05) ;
 }
 .facts_icon{
     padding-top: 2.64vw;
     width: 3.2vw;
+    transition: 0.8s ease-in-out
+    
+}
+.facts_icon:hover{
+    transform: scale(1.15)
 }
 .facts_number{
     padding-top: 0.52vw;
@@ -452,6 +507,9 @@
 .sponsor_logo_pic{
     filter: grayscale(100%);
 }
+.sponsor_logo_pic:hover{
+    filter: none
+}
 
 /* --------------------Footer Here-------------------- */
 
@@ -470,6 +528,11 @@
     text-align: center;
     color: #424242;
     margin-bottom: 11.25vw;
+    transition: 1.4s ease-in-out;
+}
+.disclaimer:hover::after{
+    content: " by Mamunur Rashid";
+
 }
 
 
