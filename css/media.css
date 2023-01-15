@@ -27,10 +27,13 @@
         width: 48vw;
         overflow-x: hidden;
     }
+    .p-collection{
+        width: 100vw;
+    }
 
     
 }
-@media only screen and (min-width: 426px) and (max-width: 768px) {
+@media only screen and (min-width: 689px) and (max-width: 992px) {
     .navbar_container{
         padding-top: 3vw;
     }
@@ -109,10 +112,11 @@
     .p-collection{
         width: 100vw;
     }
+    
 
     
 }
-@media only screen and (min-width: 320px) and (max-width: 425px) {
+@media only screen and (min-width: 320px) and (max-width: 688px) {
     .sponsors_list {
         flex-wrap: wrap;
     }

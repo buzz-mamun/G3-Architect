@@ -397,10 +397,10 @@
     font-size: 20px;
     color: #727272;
 }
-/* --------------------Our Sponsors Here-------------------- */
+/* --------------------Gallery Here-------------------- */
 
 .p-collection {
-    width: 1047px;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
@@ -449,11 +449,11 @@
 .stars {}
 
 .filled {
-    color: #E02C6D;
+    color: #c4c71f;
 }
 
 .half {
-    color: #E02C6D;
+    color: #c4c71f;
 }
 
 .showmore {
@@ -466,7 +466,7 @@
 
 .showmore a {
     text-decoration: none;
-    color: rgba(224, 44, 109, 0.87);
+    color: rgba(206, 224, 44, 0.87);
 }
 
 /* --------------------Our Sponsors Here-------------------- */
