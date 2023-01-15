@@ -52,10 +52,10 @@
     transition: 0.5s ease-out;
 }
 .navbar_link:hover{
-    color: #868484;
+    color: #FF900E;
 }
 .navbar_link:active{
-    color: #FF900E;
+    color: #FFF4E7;
 }
 
 /* --------------------Banner Here-------------------- */
@@ -101,7 +101,8 @@
     border: 1px solid #FF900E;
 }
 .banner_btn:focus{
-    border: 1px solid white;
+    border: 1px solid #FF900E;
+    
 }
 
 .banner_img{
@@ -109,7 +110,7 @@
     transition: 0.8s ease-in-out;
 }
 .banner_img:hover{
-    transform: scale(1.05);
+    transform: scale(1);
 }
 
 
@@ -346,7 +347,7 @@
     transition: 0.8s ease-in-out;
 }
 .facts_header_text:hover{
-    transform: scale(1.1);
+    transform: scale(1);
 
 }
 
@@ -400,8 +401,8 @@
 /* --------------------Gallery Here-------------------- */
 
 .p-collection {
-    width: 100vw;
-    margin-left: auto;
+    width: 80vw;
+    margin-left: 12.5vw;
     margin-right: auto;
     margin-bottom: 100px;
 }
@@ -445,9 +446,6 @@
 .thumb img:hover {
     transform: scale(1.1);
 }
-
-.stars {}
-
 .filled {
     color: #c4c71f;
 }
